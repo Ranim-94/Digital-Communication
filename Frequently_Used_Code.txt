@@ -1,0 +1,40 @@
+
+
+1) Insert a picture
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{Figures/Papers/aliasing}
+\caption{}
+\label{fig:Papers:aliasing}
+\end{figure}
+
+
+2) Centering a title
+
+
+% c for center
+\begin{frame}[c]
+
+
+\begin{center}
+\Huge \textcolor{green}{Window Analysis}
+\end{center}
+
+\end{frame}
+
+
+3) Display a current section with its subsections
+
+
+\section{Discrete Fourier Transform}
+\label{Chap:DFT}
+\begin{frame}[t]{Chapter \autoref{Chap:DFT}}
+\tableofcontents[sections= \value{section}]
+\end{frame}
+
+4) foot note:
+
+
+\footnote[1]{By Moshe Mishali 
+and Yonina C. Eldar, IEEE Signal Processing Magazine, November, 2017}
